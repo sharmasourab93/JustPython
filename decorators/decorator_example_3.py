@@ -27,4 +27,8 @@ When you call decorated, you’re actually calling inner.
     
 if __name__ == '__main__':
     decorated('Sourab')
+    """
+    The function decorated is being replaced by function inner.
+    This means that we are losing information about the function which is being passed.
+    """
     print(decorated)
