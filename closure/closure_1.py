@@ -1,5 +1,6 @@
 """
-Python : Closure Example
+Python : Closure
+         Example 1
 """
 
 
@@ -8,6 +9,7 @@ def outer_function(text):
         print(text)
     
     return inner_function
+
 
 def assign_lambda():
     return lambda x: not x == x
