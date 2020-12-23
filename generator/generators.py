@@ -3,6 +3,8 @@ Python : Generator Functions
          Yield Key Word
 """
 
+# https://stackoverflow.com/questions/42983569/how-to-write-a-generator-class
+
 
 # Example 1: To Generate the next square
 def next_square():
