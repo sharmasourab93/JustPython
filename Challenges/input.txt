@@ -1,9 +1,0 @@
-2
-lambda x: int(x/x)
-lambda x: x + x
-5
-5
-4
-3
-2
-1
