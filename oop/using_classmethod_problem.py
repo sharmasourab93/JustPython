@@ -19,7 +19,7 @@ class InputData:
 class PathInputData(InputData):
     
     def __init__(self, path):
-        super().__init__()
+        super(self,).__init__()
         self.path = path
         
     def read(self):
@@ -38,7 +38,7 @@ class Worker:
         raise NotImplementedError
     
     def reduce(self, other):
-        raise  NotImplementedError
+        raise NotImplementedError
     
 
 # A Concrete Subclass worker to implement
@@ -97,4 +97,3 @@ def mapreduce(data_dir):
 # If you want to write another InputData or Worker subclass,
 # You would also have to rewrite the generate_inputs,
 # create_workers, and mapreduce functions to match.
-
